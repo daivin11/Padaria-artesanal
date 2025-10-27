@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Artesanal - Contato</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">       
+</head>
+<body>
+    <header>
+        <div class="logo">Padaria Artesanal</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact-section">
+        <h1>Entre em Contato</h1>
+        <p>Estamos aqui para ajudar! Envie uma mensagem ou visite-nos. Adoramos ouvir de nossos clientes.</p>
+        
+        <div class="contact-info">
+            <h2>Informações de Contato</h2>
+            <p><strong>Endereço:</strong> Rua 6, 244 - Vicente pires, Brasilia, Brasil</p>
+            <p><strong>Horários:</strong> Segunda a Sábado, 8h às 18h</p>
+            <p><strong>Telefone:</strong> (61) 99999-9999</p>
+            <p><strong>E-mail:</strong> PadariaArtesanal@gmail.com</p>
+            
+          
+        </div>
+        
+        <div class="contact-form">
+            <h2>Envie uma Mensagem</h2>
+            <form action="https://formspree.io/your-email@example.com" method="POST">  <!-- Substitua por um endpoint real -->
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="Digite seu nome" name="name"  required>
+                <p id="mensagem" ></p>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button id="buttonform" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Padaria Artesanal. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><img src="img/iconinstagram.jpg" alt="Instagram"></a>
+            <a href="#"><img src="img/iconwpp.jpg" alt="whatsapp"></a>
+        </div>
+    </footer>
+</body>
+<script src="javascript.js"></script>
+</html>

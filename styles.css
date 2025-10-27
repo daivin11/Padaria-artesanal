@@ -1,0 +1,300 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Fundo branco para acessibilidade */
+    color: #333333; /* Texto escuro para legibilidade */
+}
+
+header {
+    background-color: #FFD700; /* Cor primária: amarelo dourado para transmitir calor */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #FFFFFF; /* Texto branco para contraste */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #FF69B4; /* Cor secundária: rosa claro para alegria */
+    padding: 50px 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero button {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #FFD700;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFF; /* Fundo branco para clareza */
+}
+
+.about-section h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #FFD700; /* Cor primária para destaque */
+}
+
+.about-section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #FF69B4; /* Cor secundária para subseções */
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+    
+}
+.paragrafo{
+    font-family: 'Pacifico', cursive;
+}
+
+.team-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Para fotos redondas, dando um toque amigável */
+}
+
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFF; /* Fundo branco para clareza */
+}
+
+.contact-section h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #FFD700; /* Cor primária para destaque */
+}
+
+.contact-section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #FF69B4; /* Cor secundária para subseções */
+}
+
+.contact-info, .contact-form {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form button {
+    background-color: #FF69B4;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons-large a {
+    margin: 0 10px;
+}
+
+.social-icons-large img {
+    width: 50px;  /* Ícones maiores para ênfase */
+    height: auto;
+}
+
+/* Estilos gerais para o body e fontes */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+/* Estilos para o header */
+header {
+    background-color: #FFD700; /* Cor primária */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Estilos para a seção de produtos - Relevante para produtos.html */
+.products-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.products-section h1, .products-section h2 {
+    color: #FFD700;  /* Destaque com cor primária */
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  /* Para responsividade em diferentes telas */
+}
+
+.product-item {
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;  /* Limite de largura para cada item */
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;  /* Bordas arredondadas para um look moderno */
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #FFD700;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+img {
+    width: 200px;
+    transition: transform 0.4s ease;
+  }
+
+  img:hover {
+    transform: translateY(-10px) scale(1.05); /* sobe e aumenta um pouco */
+    cursor: grab;
+  }

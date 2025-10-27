@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria artesenal - Nossos Produtos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Padaria artesanal</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="products-section">
+        <h1>Nossos Produtos</h1>
+        <p>Explore nossa seleção de doces, pães e bolos artesanais, todos feitos com ingredientes frescos e de qualidade. Veja os preços e faça seu pedido hoje!</p>
+        
+        <h2>Doces</h2>
+        <div class="product-gallery">
+            <div class="product-item">
+                <img  class="fotodocinho" src="img/doces.jpg" alt="Doces Variados">
+                <h3>Doces Variados</h3>
+                <p>Deliciosos doces caseiros com sabores únicos, perfeitos para qualquer ocasião.</p>
+                <p>Preço: R$ 5,00/unidade</p>
+            </div>
+            <div class="product-item">
+                <img class="fotochocolate" src="img/c6567406132e8c86ba3c9132e53d9791.webp" alt="Chocolate Trufado">
+                <h3>Chocolate Trufado</h3>
+                <p>Trufas de chocolate premium, com recheios cremosos.</p>
+                <p>Preço: R$ 10,00/unidade</p>
+            </div>
+        </div>
+        
+        <h2>Pães</h2>
+        <div class="product-gallery">
+            <div class="product-item">
+                <img class="ftpao" src="img/pao-frances-receita.webp" alt="Pão Fresco">
+                <h3>Pão Fresco</h3>
+                <p>Pão integral ou branco, assado diariamente com farinha de qualidade.</p>
+                <p>Preço: R$ 8,00/unidade</p>
+            </div>
+            <div class="product-item">
+                <img class="ftintegral" src="img/pao-integral.png" alt="Pão Integral">
+                <h3>Pão Integral</h3>
+                <p>Opção saudável com grãos integrais e sem conservantes.</p>
+                <p>Preço: R$ 9,00/unidade</p>
+            </div>
+        </div>
+        
+        <h2>Bolos</h2>
+        <div class="product-gallery">
+            <div class="product-item">
+                <img class="ftartesanal" src="img/bolo.jpg" alt="Bolo Artesanal">
+                <h3>Bolo Artesanal</h3>
+                <p>Bolos decorados para festas e eventos especiais.</p>
+                <p>Preço: R$ 50,00/unidade (variável por tamanho)</p>
+            </div>
+            <div class="product-item">
+                <img class="ftaniversario" src="img/bolo-kit-kat-bolo-aniversario.webp" alt="Bolo de Aniversário">
+                <h3>Bolo de Aniversário</h3>
+                <p>Bolo personalizado com temas e sabores personalizados.</p>
+                <p>Preço: R$ 60,00/unidade</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Padaria artesenal. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><img src="img/iconinstagram.jpg" alt="Instagram"></a>
+            <a href="#"><img src="img/iconwpp.jpg" alt="whatsapp"></a>
+        </div>
+    </footer>
+</body>
+<script>
+const imagens = document.querySelector(".fotodocinho");
+imagens.addEventListener("click", function() {
+    alert("Obrigado por clicar na imagem dos doces! Visite nossa loja para mais delícias.");
+});
+
+imagens.onmouseover = function() {
+    this.style.opacity = "0.7";
+};
+imagens.onmouseout = function() {
+    this.style.opacity = "1";
+};
+
+
+const imagem2 = document.querySelector(".fotochocolate");
+imagem2.addEventListener("click", function() {
+    alert("Obrigado por clicar na imagem do chocolate trufado! Visite nossa loja para mais delícias.");
+});
+imagem2.onmouseover = function() {
+    this.style.opacity = "0.7";
+};
+imagem2.onmouseout = function() {
+    this.style.opacity = "1";
+};
+const imagem3 = document.querySelector(".ftpao");
+imagem3.addEventListener("click", function() {
+    alert("Obrigado por clicar na imagem do pão fresco! Visite nossa loja para mais delícias.");
+});
+imagem3.onmouseover = function() {
+    this.style.opacity = "0.7";
+};
+imagem3.onmouseout = function() {
+    this.style.opacity = "1";
+};
+const imagem4 = document.querySelector(".ftintegral");
+imagem4.addEventListener("click", function() {
+    alert("Obrigado por clicar na imagem do pão integral! Visite nossa loja para mais delícias.");
+});
+imagem4.onmouseover = function() {
+    this.style.opacity = "0.7";
+};
+imagem4.onmouseout = function() {
+    this.style.opacity = "1";
+};
+const imagem5 = document.querySelector(".ftartesanal");
+imagem5.addEventListener("click", function() {
+    alert("Obrigado por clicar na imagem do bolo artesanal! Visite nossa loja para mais delícias.");
+});
+imagem5.onmouseover = function() {
+    this.style.opacity = "0.7";
+};
+imagem5.onmouseout = function() {
+    this.style.opacity = "1";
+};
+const imagem6 = document.querySelector(".ftaniversario");
+imagem6.addEventListener("click", function() {
+    alert("Obrigado por clicar na imagem do bolo de aniversário! Visite nossa loja para mais delícias.");
+});
+imagem6.onmouseover = function() {
+    this.style.opacity = "0.7";
+};
+imagem6.onmouseout = function() {
+    this.style.opacity = "1";
+};
+
+
+</script>
+</html>
