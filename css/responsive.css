@@ -1,0 +1,27 @@
+/* Mobile first - estilos base para mobile */
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Desktop grande */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
