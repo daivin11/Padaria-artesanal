@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Padaria artesenal - Nossos Produtos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="SOVA Padaria Artesanal: pães, bolos e doces feitos à mão, com ingredientes selecionados e sabor de casa.">
+    <meta name="keywords"
+        content="padaria artesanal, pães artesanais, bolos caseiros, doces artesanais, confeitaria, SOVA Padaria, padaria, doces, Brasília">
+    <meta name="author" content="David Soares e Arthur Candido">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
     <header></header>
-    
+
     <section class="products-section">
         <h1>Nossos Produtos</h1>
-        <p>Explore nossa seleção de doces, pães e bolos artesanais, todos feitos com ingredientes frescos e de qualidade. Veja os preços e faça seu pedido hoje!</p>
-        
+        <p>Explore nossa seleção de doces, pães e bolos artesanais, todos feitos com ingredientes frescos e de
+            qualidade. Veja os preços e faça seu pedido hoje!</p>
+
         <h2>Doces</h2>
         <div class="product-gallery">
             <div class="product-item">
-                <img  class="fotodocinho" src="img/doces.jpg" alt="Doces Variados">
+                <img class="fotodocinho" src="img/doces.jpg" alt="Doces Variados">
                 <h3>Doces Variados</h3>
                 <p>Deliciosos doces caseiros com sabores únicos, perfeitos para qualquer ocasião.</p>
                 <p>Preço: R$ 5,00/unidade</p>
@@ -30,7 +39,7 @@
                 <p>Preço: R$ 10,00/unidade</p>
             </div>
         </div>
-        
+
         <h2>Pães</h2>
         <div class="product-gallery">
             <div class="product-item">
@@ -46,7 +55,7 @@
                 <p>Preço: R$ 9,00/unidade</p>
             </div>
         </div>
-        
+
         <h2>Bolos</h2>
         <div class="product-gallery">
             <div class="product-item">
@@ -63,78 +72,79 @@
             </div>
         </div>
     </section>
-    
+
     <footer></footer>
-       
-    
+
+
 </body>
 <script>
-const imagens = document.querySelector(".fotodocinho");
-imagens.addEventListener("click", function() {
-    alert("Obrigado por clicar na imagem dos doces! Visite nossa loja para mais delícias.");
-});
+    const imagens = document.querySelector(".fotodocinho");
+    imagens.addEventListener("click", function () {
+        alert("Obrigado por clicar na imagem dos doces! Visite nossa loja para mais delícias.");
+    });
 
-imagens.onmouseover = function() {
-    this.style.opacity = "0.7";
-};
-imagens.onmouseout = function() {
-    this.style.opacity = "1";
-};
+    imagens.onmouseover = function () {
+        this.style.opacity = "0.7";
+    };
+    imagens.onmouseout = function () {
+        this.style.opacity = "1";
+    };
 
 
-const imagem2 = document.querySelector(".fotochocolate");
-imagem2.addEventListener("click", function() {
-    alert("Obrigado por clicar na imagem do chocolate trufado! Visite nossa loja para mais delícias.");
-});
-imagem2.onmouseover = function() {
-    this.style.opacity = "0.7";
-};
-imagem2.onmouseout = function() {
-    this.style.opacity = "1";
-};
-const imagem3 = document.querySelector(".ftpao");
-imagem3.addEventListener("click", function() {
-    alert("Obrigado por clicar na imagem do pão fresco! Visite nossa loja para mais delícias.");
-});
-imagem3.onmouseover = function() {
-    this.style.opacity = "0.7";
-};
-imagem3.onmouseout = function() {
-    this.style.opacity = "1";
-};
-const imagem4 = document.querySelector(".ftintegral");
-imagem4.addEventListener("click", function() {
-    alert("Obrigado por clicar na imagem do pão integral! Visite nossa loja para mais delícias.");
-});
-imagem4.onmouseover = function() {
-    this.style.opacity = "0.7";
-};
-imagem4.onmouseout = function() {
-    this.style.opacity = "1";
-};
-const imagem5 = document.querySelector(".ftartesanal");
-imagem5.addEventListener("click", function() {
-    alert("Obrigado por clicar na imagem do bolo artesanal! Visite nossa loja para mais delícias.");
-});
-imagem5.onmouseover = function() {
-    this.style.opacity = "0.7";
-};
-imagem5.onmouseout = function() {
-    this.style.opacity = "1";
-};
-const imagem6 = document.querySelector(".ftaniversario");
-imagem6.addEventListener("click", function() {
-    alert("Obrigado por clicar na imagem do bolo de aniversário! Visite nossa loja para mais delícias.");
-});
-imagem6.onmouseover = function() {
-    this.style.opacity = "0.7";
-};
-imagem6.onmouseout = function() {
-    this.style.opacity = "1";
-};
+    const imagem2 = document.querySelector(".fotochocolate");
+    imagem2.addEventListener("click", function () {
+        alert("Obrigado por clicar na imagem do chocolate trufado! Visite nossa loja para mais delícias.");
+    });
+    imagem2.onmouseover = function () {
+        this.style.opacity = "0.7";
+    };
+    imagem2.onmouseout = function () {
+        this.style.opacity = "1";
+    };
+    const imagem3 = document.querySelector(".ftpao");
+    imagem3.addEventListener("click", function () {
+        alert("Obrigado por clicar na imagem do pão fresco! Visite nossa loja para mais delícias.");
+    });
+    imagem3.onmouseover = function () {
+        this.style.opacity = "0.7";
+    };
+    imagem3.onmouseout = function () {
+        this.style.opacity = "1";
+    };
+    const imagem4 = document.querySelector(".ftintegral");
+    imagem4.addEventListener("click", function () {
+        alert("Obrigado por clicar na imagem do pão integral! Visite nossa loja para mais delícias.");
+    });
+    imagem4.onmouseover = function () {
+        this.style.opacity = "0.7";
+    };
+    imagem4.onmouseout = function () {
+        this.style.opacity = "1";
+    };
+    const imagem5 = document.querySelector(".ftartesanal");
+    imagem5.addEventListener("click", function () {
+        alert("Obrigado por clicar na imagem do bolo artesanal! Visite nossa loja para mais delícias.");
+    });
+    imagem5.onmouseover = function () {
+        this.style.opacity = "0.7";
+    };
+    imagem5.onmouseout = function () {
+        this.style.opacity = "1";
+    };
+    const imagem6 = document.querySelector(".ftaniversario");
+    imagem6.addEventListener("click", function () {
+        alert("Obrigado por clicar na imagem do bolo de aniversário! Visite nossa loja para mais delícias.");
+    });
+    imagem6.onmouseover = function () {
+        this.style.opacity = "0.7";
+    };
+    imagem6.onmouseout = function () {
+        this.style.opacity = "1";
+    };
 
 
 </script>
 <script src="js/includes.js"></script>
 <script src="js/javascript.js"></script>
+
 </html>

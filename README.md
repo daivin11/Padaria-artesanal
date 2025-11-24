@@ -1,129 +1,98 @@
-Padaria Artesanal
+# 🥖 SOVA Padaria Artesanal
 
-Projeto acadêmico – Desenvolvimento Web
+Projeto desenvolvido para o curso de **Desenvolvimento front end**, com foco na criação de um site responsivo, organizado e voltado para um pequeno negócio real: uma padaria artesanal.
 
-👥 Integrantes
+---
 
-David Soares – Desenvolvimento Front-end e Estrutura de Componentes
+## 👥 Integrantes da Dupla
 
-Arthur Candido – Design, Conteúdo e Arquitetura do Site
+- **David soares** — Estruturação do conteúdo, texto, identidade visual e organização das páginas.
+- **Arthur candido** — Desenvolvimento do layout, estilização e implementação das funcionalidades.
 
-📝 Descrição do Negócio
 
-A Padaria Artesanal é um negócio fictício inspirado em estabelecimentos que produzem pães, bolos e confeitaria utilizando técnicas tradicionais, ingredientes naturais e um atendimento acolhedor.
 
-O site foi criado para representar essa marca digitalmente, permitindo que o usuário conheça os produtos, horários, serviços e canais de contato.
+---
 
-🎯 Objetivos do Site
+## 📌 Descrição do Negócio
 
-Apresentar a identidade da padaria (história, valores e especialidades).
+A **SOVA Padaria Artesanal** é uma padaria fictícia voltada para a produção de pães, bolos e doces feitos com ingredientes selecionados, de forma artesanal.  
+O objetivo do site é facilitar a apresentação dos produtos, permitir que o cliente conheça o negócio, veja as opções disponíveis e entre em contato.
 
-Exibir produtos e categorias de forma organizada e visualmente atrativa.
+---
 
-Facilitar o contato do cliente por WhatsApp ou formulário.
+## 🧰 Tecnologias Utilizadas
 
-Permitir localização rápida via Google Maps integrado.
+- **HTML5** — Marcações e estrutura das páginas  
+- **CSS3** — Estilização, layout e responsividade  
+- **JavaScript** — Reutilização do header/footer e interação básica   
+- **Git e GitHub** — Versionamento e hospedagem  
+- **GitHub Pages** — Publicação do site
 
-Garantir acessibilidade e responsividade para diferentes dispositivos.
+## Metadados Essenciais
 
-📁 Estrutura de Pastas
-padaria-artesanal/
+## 📂 Estrutura de Pastas
+
+```text
+PADARIA-ARTESANAL
 │
 ├── index.html
-├── produtos.html
+├── sobre.html
 ├── contato.html
+├── produtos.html
 │
-├── /css
-│   ├── style.css
-│   ├── responsivo.css
-│   
+├── header.html
+├── footer.html
 │
-├── /js
-│   ├── javascript.js
-│   
+├── css/
+│   ├── styles.css
+│   └── responsive.css
 │
-├── /assets
-│   ├── /img
-│   │   ├── banners/
-│   │   ├── produtos/
-│   │   └── icones/
-│   
+├── js/
+│   └── includes.js
+│   └── javascript.js
 │
+└── img/
+    ├── bolo.jpg
+    ├── paes.jpg
+    ├── doces.jpg
+    ├── iconinstagram.jpg
+    ├── iconwpp.jpg
+    
+🌐 GitHub Pages
+
+https://daivin11.github.io/Padaria-artesanal/
 
 
-🔧 Melhorias Implementadas na Parte 2
-✔️ 
- 1. Ajustes de Acessibilidade
+# 🧪 Testes Realizados
 
-Adicionados textos alternativos em todas as imagens.
+Durante o desenvolvimento do site **SOVA Padaria Artesanal**, foram realizados testes de compatibilidade, responsividade e funcionamento geral.  
+Abaixo estão as evidências organizadas.
 
-Ajuste de contraste entre fundo e texto.
+---
 
-Inclusão de roles ARIA nos principais elementos.
+## Navegadores Testados
 
-Navegação funcional via teclado (tabulação).
+- Google Chrome (versão mais recente)
+- Microsoft Edge (versão mais recente)
+- Mozilla Firefox  
+- Safari (teste via simulador / mobile)
 
-Botão de "Aumentar Fonte" no topo.
+---
 
-Resultado: site mais inclusivo e aderente às diretrizes WCAG.
+## ✔️ Dispositivos e Resoluções Testadas
 
-  2. Ajustes de Responsividade
+**💻 Desktop**
+- 1920x1080 (Full HD)
+- 1366x768 (notebooks)
+- 1440x900 (MacBook)
 
-Grid flexível para cards e seções.
+**📱 Mobile**
+- iPhone 11 / XR – 414x896  
+- iPhone 12 / 13 – 390x844  
+- Samsung Galaxy S20 – 360x800  
+- Motorola G Series – 360x760  
 
-Menus adaptados para versões mobile (hambúrguer menu).
+**📱 Tablet**
+- iPad 768x1024  
+- iPad Pro 1024x1366  
 
-Redimensionamento automático de imagens.
-
-Correções de quebra de layout em telas pequenas.
-
-Resultado: navegação fluida em celular, tablet e desktop.
-
- 3. Integrações Externas Adicionadas
-
-Google Maps Embed – localização da padaria.
-
-Link direto para WhatsApp – contato rápido.
-
-Formulário funcional com validação em JavaScript.
-
-🛠️ Justificativas Técnicas
-
-Modularização permite que o código cresça sem virar um sistema difícil de manter.
-
-Frameworks e componentes reutilizáveis reduzem o retrabalho.
-
-Responsividade é essencial para melhorar experiência e ranqueamento SEO.
-
-Acessibilidade torna o site inclusivo e alinhado às melhores práticas.
-
-Integrações externas deixam o site mais útil, moderno e conectado com o usuário.
-
- Desafios Encontrados e Soluções
-1. Quebra de layout em telas pequenas
-
-Solução: revisão do CSS responsivo, reorganização em colunas e uso de Flexbox e media queries.
-
-2. Padronização entre páginas diferentes
-
-Solução: criação de componentes (header/footer).
-
-3. Acessibilidade insuficiente na primeira versão
-
-Solução: testes com navegação por teclado, ajustes de contraste e melhoria nas descrições.
-
-4. Integração do mapa
-
-Solução: adaptação do iframe do Google Maps com container responsivo.
-
-🚀 Próximos Passos Planejados
-
-Implementação de um carrinho de compras simples.
-
-Versão com sistema de login cliente/administrador.
-
-Painel para cadastrar novos produtos.
-
-Otimização SEO avançada (rich snippets, meta tags dinâmicas).
-
-Hospedagem online com domínio próprio.
