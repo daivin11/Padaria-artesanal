@@ -1,0 +1,23 @@
+Autoavaliação com Rubrica – Projeto Padaria Artesanal 8.1. Avaliação por Critérios 1. Interatividade 
+Nível: Bom O site possui elementos interativos como botão de WhatsApp, formulário com validação e
+ menu responsivo. Ainda não há animações avançadas ou interações mais profundas, mas o essencial
+ está presente. 2. Acessibilidade – Nível: Médio Foram adicionados alt text, contraste adequado e
+ navegação por teclado. Porém, ainda faltam atributos ARIA mais completos e uma análise mais
+ técnica de acessibilidade. 3. Responsividade – Nível: Muito Bom O layout adapta-se bem em celular,
+ tablet e desktop. Os cards ajustam de forma fluida e o menu mobile funciona corretamente. 4.
+ Modularidade – Nível: Excelente O uso de componentes como header, footer e cards padroniza o
+ código e facilita manutenção. A estrutura está organizada e escalável. 5. Design e Identidade Visual 
+Nível: Bom O design é limpo, utiliza cores adequadas e é coerente com o tema artesanal. Ainda pode
+ evoluir com melhorias de tipografia e hierarquia visual. 6. Conteúdo – Nível: Muito Bom As páginas
+ possuem informações claras: produtos, contato, localização. O texto está organizado e bem
+ estruturado. 7. Integrações Externas – Nível: Bom Google Maps e WhatsApp foram integrados
+ corretamente. Futuras integrações podem aumentar o valor funcional. 8. Código e Organização 
+Nível: Muito Bom A estrutura de pastas é clara e profissional. O CSS está dividido e o JavaScript
+ modularizado. 8.2. Reflexão e Plano de Melhorias Critérios com menor pontuação: Acessibilidade
+ Interatividade Design Plano de Ações para Melhoria 1. Acessibilidade Adicionar atributos ARIA em
+ todos os botões e menus. Criar controle de contraste automático. Incluir opção de alto contraste no
+ topo do site. 2. Interatividade Adicionar microanimações (hover, foco, transições suaves). Implementar
+ carrossel mais dinâmico. Criar feedback visual para envio de formulário. 3. Design Melhorar hierarquia
+ de títulos e espaçamentos. Adicionar fontes artesanais no cabeçalho. Revisar paleta de cores com
+ base em branding. Este documento resume a autoavaliação, justificativas e plano de evolução do
+ projeto Padaria Artesanal.
